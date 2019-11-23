@@ -1,0 +1,20 @@
+<br/>
+<% flash.each do |name, msg|%>
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	    <span aria-hidden="true">&times;</span>
+	  </button>
+	  <strong><%= content_tag(:div, msg) %></strong>
+	</div>
+<% end %>
+
+
+
+
+
+<!--<div class="alert alert-warning alert-dismissible fade show" role="alert">-->
+<!--  <strong>리스트가 업데이트 됐습니다.</strong>-->
+<!--  <button type="button" class="close" data-dismiss="alert" aria-label="Close">-->
+<!--    <span aria-hidden="true">&times;</span>-->
+<!--  </button>-->
+<!--</div>-->

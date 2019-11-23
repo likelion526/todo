@@ -1,0 +1,4 @@
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th {
+	vertical-align:middle;
+}
